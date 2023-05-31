@@ -1,0 +1,164 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADMIN
+
+participant ": OverviewTestUi" as UI
+participant ": OverviewController" as CTRL
+participant ": Company" as COMP
+participant "overview : Overview" as OVERVIEW
+participant ": TestStore" as TS
+participant ": ClientStore" as CS
+participant ": SubsequenceWithMaximumSum" as interface
+
+activate ADMIN
+ADMIN -> UI : Initiates the process of overviewing the tests
+activate UI
+UI --> ADMIN : Requests to delimit the period of dates to analyze
+deactivate UI
+
+ADMIN -> UI : Selects the dates and asks to see relative information
+activate UI
+UI -> CTRL : getIntervalTestList(initialDate,endDate)
+activate CTRL
+
+CTRL -> COMP : testStore = getTestStore()
+activate COMP
+deactivate COMP
+CTRL -> TS : testList = getIntervalTestList(initialDate,endDate)
+activate TS
+deactivate TS
+CTRL -> COMP : createOverview()
+activate COMP
+COMP --> OVERVIEW** : create(initialDate,endDate, testList)
+OVERVIEW -> OVERVIEW: getAssociatedClients()
+activate OVERVIEW
+deactivate OVERVIEW
+OVERVIEW -> OVERVIEW: getTestsWaitingForResultsDay()
+activate OVERVIEW
+deactivate OVERVIEW
+OVERVIEW -> OVERVIEW: getTestsWaitingForDiagnosisDay()
+activate OVERVIEW
+deactivate OVERVIEW
+OVERVIEW -> OVERVIEW: getNumberOfTestsPrcossedDay()
+activate OVERVIEW
+deactivate OVERVIEW
+OVERVIEW -> OVERVIEW: getIntervalDates()
+activate OVERVIEW
+deactivate OVERVIEW
+OVERVIEW -> OVERVIEW: getSequenceTestWaitingForResults()
+activate OVERVIEW
+deactivate OVERVIEW
+OVERVIEW -> OVERVIEW: getSequenceTestValidated()
+activate OVERVIEW
+deactivate OVERVIEW
+OVERVIEW -> OVERVIEW: getSequenceAux()
+activate OVERVIEW
+deactivate OVERVIEW
+
+COMP --> CTRL : overview
+deactivate COMP
+deactivate CTRL
+
+UI -> CTRL : getNumberOfClients()
+
+
+activate CTRL
+CTRL -> OVERVIEW : getNumberOfClients()
+activate OVERVIEW
+deactivate OVERVIEW
+deactivate CTRL
+
+UI -> CTRL : getNumberTestsSystem()
+activate CTRL
+CTRL -> TS: getNumberTestsSystem()
+activate TS
+deactivate TS
+deactivate CTRL
+
+UI -> CTRL : getNumberClientsSystem()
+activate CTRL
+CTRL -> COMP : clientStore=getClientStore()
+activate COMP
+deactivate COMP
+CTRL -> CS : getNumberOfClientsInTheSystem()
+activate CS
+deactivate CS
+
+deactivate CTRL
+
+UI -> CTRL : getNumberOfTestsWaitingForResults()
+activate CTRL
+CTRL -> OVERVIEW : getNumberOfTestsWaitingForResults()
+activate OVERVIEW
+deactivate OVERVIEW
+deactivate CTRL
+
+UI -> CTRL : getNumberOfTestsWaitingForDiagnosis()
+activate CTRL
+CTRL -> OVERVIEW : getNumberOfTestsWaitingForDiagnosis()
+activate OVERVIEW
+deactivate OVERVIEW
+deactivate CTRL
+
+UI -> CTRL : getTotalNumberOfTestsProcessed()
+activate CTRL
+CTRL -> OVERVIEW : getTotalNumberOfTestsProcessed()
+activate OVERVIEW
+deactivate OVERVIEW
+deactivate CTRL
+
+UI --> ADMIN : Shows successfully the relative information ( number of clients, number of tests \n in the system and number of clients in the system)
+deactivate UI
+ADMIN -> UI : Asks to evaluate performance
+activate UI
+UI -> CTRL : getAvailableAlgorithms()
+activate CTRL
+CTRL -> OVERVIEW : getAvailableAlgorithms()
+activate OVERVIEW
+OVERVIEW --> CTRL : availableAlgorithms
+deactivate OVERVIEW
+CTRL --> UI : availableAlgorithms
+deactivate CTRL
+UI --> ADMIN : Shows available algorithms
+deactivate UI
+
+ADMIN -> UI : Selects the algorithm and asks for the least effective time
+activate UI
+
+UI -> CTRL : getSubsequenceWithMaximumSum()
+activate CTRL
+CTRL -> OVERVIEW : getSubsequenceWithMaximumSum()
+activate OVERVIEW
+OVERVIEW -> interface : getSubsequenceWithMaximumSum()
+activate interface
+interface --> OVERVIEW : subsequenceWithMaximumSum
+deactivate interface
+OVERVIEW --> CTRL : subsequenceWithMaximumSum
+deactivate OVERVIEW
+CTRL --> UI : subsequenceWithMaximumSum
+deactivate CTRL
+
+UI -> CTRL : getPeriodSubSequenceWithMaximumSum()
+activate CTRL
+CTRL -> OVERVIEW : getPeriodSubSequenceWithMaximumSum()
+activate OVERVIEW
+OVERVIEW -> OVERVIEW : periodSubSequenceMaxSum(subSequence, sequence)
+activate OVERVIEW
+OVERVIEW --> CTRL : periodSubSequenceMaxSum
+deactivate OVERVIEW
+deactivate OVERVIEW
+CTRL --> UI : periodSubSequenceMaxSum
+deactivate CTRL
+
+UI -> UI : loadLineCharts()
+activate UI
+deactivate UI
+
+
+UI --> ADMIN : Shows successfully the least effective time and statics per day, week, month and year
+deactivate UI
+
+deactivate ADMIN
+
+@enduml

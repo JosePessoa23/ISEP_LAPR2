@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="409px" preserveAspectRatio="none" style="width:351px;height:409px;" version="1.1" viewBox="0 0 351 409" width="351px" zoomAndPan="magnify"><defs><filter height="300%" id="fpm5znyzwzb0w" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="177.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="36" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="55.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="286" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="286" y="208.0156"/><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="286" y="268.7188"/><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="170.1094" style="stroke:#000000;stroke-width:2.0;" width="327" x="10" y="136.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="41" x2="41" y1="89.6094" y2="324.0703"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="291" x2="291" y1="89.6094" y2="324.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="20" y="86.5332">Client</text><ellipse cx="41" cy="15" fill="#FEFECE" filter="url(#fpm5znyzwzb0w)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M41,23 L41,50 M28,31 L54,31 M41,50 L28,65 M41,50 L54,65 " fill="none" filter="url(#fpm5znyzwzb0w)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="20" y="337.6035">Client</text><ellipse cx="41" cy="350.6797" fill="#FEFECE" filter="url(#fpm5znyzwzb0w)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M41,358.6797 L41,385.6797 M28,366.6797 L54,366.6797 M41,385.6797 L28,400.6797 M41,385.6797 L54,400.6797 " fill="none" filter="url(#fpm5znyzwzb0w)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fpm5znyzwzb0w)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="68" x="255" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="262" y="74.5332">: System</text><rect fill="#FEFECE" filter="url(#fpm5znyzwzb0w)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="68" x="255" y="323.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="262" y="344.6035">: System</text><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="177.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="36" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="55.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="286" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="286" y="208.0156"/><rect fill="#FFFFFF" filter="url(#fpm5znyzwzb0w)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="286" y="268.7188"/><polygon fill="#A80036" points="274,117.9609,284,121.9609,274,125.9609,278,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="46" x2="280" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="53" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="64" y="117.1045">starts the update of data</text><path d="M10,136.9609 L83,136.9609 L83,144.9609 L73,154.9609 L10,154.9609 L10,136.9609 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="170.1094" style="stroke:#000000;stroke-width:2.0;" width="327" x="10" y="136.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="25" y="151.4561">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="230" x="98" y="150.3799">[while the client wants to update his data]</text><polygon fill="#A80036" points="57,173.6641,47,177.6641,57,181.6641,53,177.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="51" x2="290" y1="177.6641" y2="177.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="63" y="172.8076">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="74" y="172.8076">show the personal data of the client</text><polygon fill="#A80036" points="274,204.0156,284,208.0156,274,212.0156,278,208.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="46" x2="280" y1="208.0156" y2="208.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="53" y="203.1592">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="64" y="203.1592">type the new data</text><polygon fill="#A80036" points="57,234.3672,47,238.3672,57,242.3672,53,238.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="51" x2="290" y1="238.3672" y2="238.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="63" y="233.5107">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="74" y="233.5107">ask for confirmation</text><polygon fill="#A80036" points="274,264.7188,284,268.7188,274,272.7188,278,268.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="46" x2="280" y1="268.7188" y2="268.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="53" y="263.8623">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="64" y="263.8623">confirm data</text><polygon fill="#A80036" points="52,295.0703,42,299.0703,52,303.0703,48,299.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="46" x2="290" y1="299.0703" y2="299.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="58" y="294.2139">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="162" x="69" y="294.2139">show the operation success</text><!--MD5=[80c343dfad12366c945438db583dbf3f]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Client" as CLIENT
+participant ": System" as SYSTEM
+
+CLIENT->SYSTEM : starts the update of data
+activate CLIENT
+activate SYSTEM
+loop while the client wants to update his data
+SYSTEM- ->CLIENT : show the personal data of the client
+deactivate SYSTEM
+CLIENT->SYSTEM : type the new data
+activate SYSTEM
+SYSTEM- ->CLIENT : ask for confirmation
+deactivate SYSTEM
+CLIENT->SYSTEM: confirm data
+activate SYSTEM
+SYSTEM- ->CLIENT : show the operation success
+deactivate SYSTEM
+deactivate CLIENT
+end loop
+
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Client" as CLIENT
+participant ": System" as SYSTEM
+
+CLIENT->SYSTEM : starts the update of data
+activate CLIENT
+activate SYSTEM
+loop while the client wants to update his data
+SYSTEM- ->CLIENT : show the personal data of the client
+deactivate SYSTEM
+CLIENT->SYSTEM : type the new data
+activate SYSTEM
+SYSTEM- ->CLIENT : ask for confirmation
+deactivate SYSTEM
+CLIENT->SYSTEM: confirm data
+activate SYSTEM
+SYSTEM- ->CLIENT : show the operation success
+deactivate SYSTEM
+deactivate CLIENT
+end loop
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

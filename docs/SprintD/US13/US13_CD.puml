@@ -1,0 +1,146 @@
+@startuml
+'https://plantuml.com/class-diagram
+package ui {
+package gui {
+class SeeTestsUI
+}
+}
+package controller {
+class SeeTestsController
+}
+
+package mappers {
+package dto {
+class ClientDTO
+class TestDTO
+}
+class ClientMapper
+class TestMapper
+}
+
+package domain {
+package model {
+package users {
+class Client
+}
+package testrelated {
+class Test
+}
+class Company
+}
+package store {
+class TestStore
+}
+}
+
+package interface {
+interface SortingAlgorithms
+}
+
+class SeeTestsUI {
+}
+
+class SeeTestsController {
++getClientList()
++getTestAssociatedWithClient(selectedClient)
++getClientsListByAlphabeticalOrder()
++getClientListByTin()
+
+
+}
+
+class  ClientDTO{
+-citizenCardNumber
+-nhsCode
+-birthDate
+-sex
+-tif
+-phoneNumber
+-e-mail
+-name
+-address
+
++getName()
++getCitizenCardNumber()
++getNhsCode()
++getDateOfBirth()
++getEmail()
++getPhoneNumber()
++getTin()
++getSex()
++getAddress()
+}
+
+class TestDTO{
+-internalCode
+-description
++getInternalCode()
+}
+
+class Company{
++getTestStore()
+
+}
+
+
+class ClientMapper{
++toDTO(ClientsList)
+}
+
+class TestStore{
++getClientsWithValidatedTests()
++getTestAssociatedWithClient(selectedClient)
+
+}
+class Client {
+-citizenCardNumber
+-nhsCode
+-birthDate
+-sex
+-tif
+-phoneNumber
+-e-mail
+-name
+
++getName(name)
++getCitizenCardNumber(citizenCardNumber)
++getNhsCode(nhsCode)
++getDateOfBirth(dateOfBirth)
++getEmail(email)
++getPhoneNumber(phoneNumber)
++getDateOfTin(tin)
++getSex(sex)
+
+
+}
+
+class TestMapper{
++toDTO(ListOfTests)
+
+}
+
+class Test {
+-client
++getClient()
+
+}
+
+interface SortingAlgorithms{
++orderClientList (list)
+}
+
+SeeTestsUI .> SeeTestsController
+SeeTestsUI ....> ClientDTO
+SeeTestsUI ....> TestDTO
+SeeTestsController .> TestMapper
+SeeTestsController ..> ClientMapper
+SeeTestsController ..> Company
+Company "1" ----> "1" TestStore : uses
+TestStore"1" --> "*" Test : know
+TestMapper ..> TestDTO
+TestMapper .....> Test
+ClientMapper ..> ClientDTO
+ClientMapper ..> Client
+SeeTestsController ...> SortingAlgorithms
+
+@enduml

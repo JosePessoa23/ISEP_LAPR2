@@ -1,0 +1,111 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Client" as CL
+
+participant ": UpdateDataUI" as UI
+participant ": UpdateDataController" as CTRL
+participant ": Company" as COMP
+participant "authFacade : AuthFacade" as AUTH
+participant "userSession : UserSession" as SESSION
+participant "store : ClientStore" as STORE
+participant "client : Client" as CLIENT
+participant ":ClientMapper" as MAPPER
+participant "clientDto : ClientDTO" as DTO
+activate CL
+CL -> UI : asks to update personal data
+activate UI
+UI -> CTRL : getUserSession()
+activate CTRL
+CTRL -> COMP : authFacade = getAuthFacade()
+activate COMP
+COMP->AUTH : userSession = getCurrentUserSession()
+activate AUTH
+AUTH-> SESSION : email = getEmail()
+activate SESSION
+deactivate SESSION
+deactivate AUTH
+CTRL->COMP : store = getClientStore()
+deactivate COMP
+CTRL->STORE : client = getClientByEmail()
+activate STORE
+deactivate STORE
+CTRL-> MAPPER : clientDto = toDto(client)
+activate MAPPER
+MAPPER-->CTRL : clientDto
+deactivate MAPPER
+CTRL-->UI : clientDto
+deactivate CTRL
+
+loop while the client wants to update his data
+UI -> CL : show the personal data of the client
+deactivate UI
+CL -> UI : type the new data
+activate UI
+UI -->CL : ask for confirmation
+deactivate UI
+CL->UI: confirm data
+activate UI
+alt attribute == name
+UI-> CTRL : updateName(client,name)
+activate CTRL
+CTRL -> STORE : updateName(client,name)
+activate STORE
+STORE -> CLIENT : setName(name)
+activate CLIENT
+CLIENT --> STORE : informs operation success
+deactivate CLIENT
+STORE --> CTRL : informs operation success
+deactivate STORE
+CTRL --> UI : show the operation success
+deactivate CTRL
+UI-->CL : show the operation success
+else attribute == address
+UI-> CTRL : updateAddress(client,address)
+activate CTRL
+CTRL -> STORE : updateAddress(client,address)
+activate STORE
+STORE -> CLIENT : setAddress(address)
+activate CLIENT
+CLIENT --> STORE : informs operation success
+deactivate CLIENT
+STORE --> CTRL : informs operation success
+deactivate STORE
+CTRL --> UI : show the operation success
+deactivate CTRL
+UI-->CL : show the operation success
+else attribute == sex
+UI-> CTRL : updateSex(client,sex)
+activate CTRL
+CTRL -> STORE : updateSex(client,sex)
+activate STORE
+STORE -> CLIENT : setSex(sex)
+activate CLIENT
+CLIENT --> STORE : informs operation success
+deactivate CLIENT
+STORE --> CTRL : informs operation success
+deactivate STORE
+CTRL --> UI : show the operation success
+deactivate CTRL
+UI-->CL : show the operation success
+else attribute == phoneNumber
+UI-> CTRL : updatePhoneNumber(client,phoneNumber)
+activate CTRL
+CTRL -> STORE : updatePhoneNumber(client,phoneNumber)
+activate STORE
+STORE -> CLIENT : setPhoneNumber(phoneNumber)
+activate CLIENT
+CLIENT --> STORE : informs operation success
+deactivate CLIENT
+STORE --> CTRL : informs operation success
+deactivate STORE
+CTRL --> UI : show the operation success
+deactivate CTRL
+UI-->CL : show the operation success
+end alt
+deactivate UI
+deactivate CL
+end
+
+@enduml

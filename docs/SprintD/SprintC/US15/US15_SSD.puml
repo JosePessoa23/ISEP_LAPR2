@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor LabCoordinator
+activate LabCoordinator
+LabCoordinator -> System: starts validation
+activate System
+System --> LabCoordinator : shows the tests to validate
+deactivate System
+LabCoordinator -> System:select a tests to validate
+activate System
+
+System --> LabCoordinator : shows the test registration \n date and asks for validation
+deactivate System
+LabCoordinator -> System: validate date
+activate System
+System --> LabCoordinator : shows the chemical analysis \n date and asks for validation
+deactivate System
+LabCoordinator -> System: validate date
+activate System
+System --> LabCoordinator : shows the diagnosis \n date and asks for validation
+deactivate System
+LabCoordinator -> System: validate date
+
+activate System
+System --> LabCoordinator : shows the dates (test registration, \n chemical analysis and diagnosis)
+deactivate System
+LabCoordinator -> System: confirms the validation
+activate System
+System --> LabCoordinator : informs the operation success
+deactivate System
+deactivate LabCoordinator
+
+@enduml

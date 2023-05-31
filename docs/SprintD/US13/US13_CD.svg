@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1836px" preserveAspectRatio="none" style="width:868px;height:1836px;" version="1.1" viewBox="0 0 868 1836" width="868px" zoomAndPan="magnify"><defs><filter height="300%" id="fzbfpqypyxegq" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="673,6,692,6,699,29.6094,851,29.6094,851,174,673,174,673,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="673" x2="699" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="677" y="22.5332">ui</text><!--MD5=[11b63f87f9efce6fda9831b98bfa73ba]
+cluster gui--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="697,50,725,50,732,73.6094,827,73.6094,827,150,697,150,697,50" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="697" x2="732" y1="73.6094" y2="73.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="22" x="701" y="66.5332">gui</text><!--MD5=[10ea673caf457862023e152271927b45]
+cluster controller--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="364,207,439,207,446,230.6094,636,230.6094,636,362,364,362,364,207" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="364" x2="446" y1="230.6094" y2="230.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="69" x="368" y="223.5332">controller</text><!--MD5=[e484dff12bc7e3f9ae9e3c87a060152b]
+cluster mappers--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="424,395,491,395,498,418.6094,790,418.6094,790,913,424,913,424,395" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="424" x2="498" y1="418.6094" y2="418.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="428" y="411.5332">mappers</text><!--MD5=[e6eced616a98d47334dd1aaaa829ffd5]
+cluster dto--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="448,540,477,540,484,563.6094,766,563.6094,766,889,448,889,448,540" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="448" x2="484" y1="563.6094" y2="563.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="23" x="452" y="556.5332">dto</text><!--MD5=[27f772719433d509ddbc20ff768eba08]
+cluster domain--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="16,1070,73,1070,80,1093.6094,615,1093.6094,615,1829,16,1829,16,1070" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="80" y1="1093.6094" y2="1093.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="51" x="20" y="1086.5332">domain</text><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="40,1114,89,1114,96,1137.6094,591,1137.6094,591,1503,40,1503,40,1114" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="96" y1="1137.6094" y2="1137.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="44" y="1130.5332">model</text><!--MD5=[3063470ff00343f127a4682df62b6479]
+cluster users--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="303,1158,349,1158,356,1181.6094,567,1181.6094,567,1479,303,1479,303,1158" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="303" x2="356" y1="1181.6094" y2="1181.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="307" y="1174.5332">users</text><!--MD5=[e34dbf285ccc79cc804d08732d8d3341]
+cluster testrelated--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="171,1254.5,254,1254.5,261,1278.1094,279,1278.1094,279,1382.5,171,1382.5,171,1254.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="171" x2="261" y1="1278.1094" y2="1278.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="175" y="1271.0332">testrelated</text><!--MD5=[c23849cc5f4a85746a20de4317c530fc]
+cluster store--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="64,1677,107,1677,114,1700.6094,336,1700.6094,336,1805,64,1805,64,1677" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="64" x2="114" y1="1700.6094" y2="1700.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="68" y="1693.5332">store</text><!--MD5=[a59c1d05a8f6fb54290705d41e67acbe]
+cluster interface--><polygon fill="#FFFFFF" filter="url(#fzbfpqypyxegq)" points="141,657.5,210,657.5,217,681.1094,303,681.1094,303,771.5,141,771.5,141,657.5" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="141" x2="217" y1="681.1094" y2="681.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="145" y="674.0332">interface</text><!--MD5=[83b9165ac23e5504f5b86f6415319180]
+class SeeTestsUI--><rect codeLine="39" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="48" id="SeeTestsUI" style="stroke:#A80036;stroke-width:1.5;" width="97" x="713.5" y="86"/><ellipse cx="728.5" cy="102" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M730.5,98.5 Q730.7031,98 730.9375,97.75 Q731.1719,97.5 731.4375,97.5 Q731.9063,97.5 732.2031,97.7813 Q732.5,98.0625 732.5,98.7188 L732.5,100.2813 Q732.5,100.9375 732.2188,101.2188 Q731.9375,101.5 731.5,101.5 Q731.1094,101.5 730.8594,101.3281 Q730.6094,101.1563 730.5,100.7031 Q730.4531,100.3906 730.2813,100.2188 Q729.9688,99.8906 729.4063,99.7031 Q728.8438,99.5 728.2813,99.5 Q727.5781,99.5 726.9844,99.7813 Q726.4063,100.0625 725.9531,100.6875 Q725.5,101.3125 725.5,102.1719 L725.5,103.0938 Q725.5,104.125 726.3438,104.8125 Q727.1875,105.5 728.6875,105.5 Q729.5781,105.5 730.2031,105.2969 Q730.5625,105.1875 730.9688,104.8281 Q731.2344,104.625 731.375,104.5625 Q731.5156,104.5 731.6875,104.5 Q732.0156,104.5 732.25,104.7656 Q732.5,105.0156 732.5,105.375 Q732.5,105.7188 732.1563,106.125 Q731.6563,106.7188 730.8594,107.0469 Q729.8125,107.5 728.5313,107.5 Q727.0313,107.5 725.8281,106.9063 Q724.8594,106.4375 724.1719,105.4219 Q723.5,104.4063 723.5,103.2031 L723.5,102.1094 Q723.5,100.8594 724.0938,99.7656 Q724.7031,98.6719 725.75,98.0938 Q726.8125,97.5 728,97.5 Q728.7188,97.5 729.3438,97.75 Q729.9688,98 730.5,98.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="742.5" y="106.9102">SeeTestsUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="714.5" x2="809.5" y1="118" y2="118"/><line style="stroke:#A80036;stroke-width:1.5;" x1="714.5" x2="809.5" y1="126" y2="126"/><!--MD5=[2654ad7b4abe994fc75dee3c22725869]
+class SeeTestsController--><rect codeLine="42" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="103.3438" id="SeeTestsController" style="stroke:#A80036;stroke-width:1.5;" width="239" x="380.5" y="243"/><ellipse cx="442.25" cy="259" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M444.25,255.5 Q444.4531,255 444.6875,254.75 Q444.9219,254.5 445.1875,254.5 Q445.6563,254.5 445.9531,254.7813 Q446.25,255.0625 446.25,255.7188 L446.25,257.2813 Q446.25,257.9375 445.9688,258.2188 Q445.6875,258.5 445.25,258.5 Q444.8594,258.5 444.6094,258.3281 Q444.3594,258.1563 444.25,257.7031 Q444.2031,257.3906 444.0313,257.2188 Q443.7188,256.8906 443.1563,256.7031 Q442.5938,256.5 442.0313,256.5 Q441.3281,256.5 440.7344,256.7813 Q440.1563,257.0625 439.7031,257.6875 Q439.25,258.3125 439.25,259.1719 L439.25,260.0938 Q439.25,261.125 440.0938,261.8125 Q440.9375,262.5 442.4375,262.5 Q443.3281,262.5 443.9531,262.2969 Q444.3125,262.1875 444.7188,261.8281 Q444.9844,261.625 445.125,261.5625 Q445.2656,261.5 445.4375,261.5 Q445.7656,261.5 446,261.7656 Q446.25,262.0156 446.25,262.375 Q446.25,262.7188 445.9063,263.125 Q445.4063,263.7188 444.6094,264.0469 Q443.5625,264.5 442.2813,264.5 Q440.7813,264.5 439.5781,263.9063 Q438.6094,263.4375 437.9219,262.4219 Q437.25,261.4063 437.25,260.2031 L437.25,259.1094 Q437.25,257.8594 437.8438,256.7656 Q438.4531,255.6719 439.5,255.0938 Q440.5625,254.5 441.75,254.5 Q442.4688,254.5 443.0938,254.75 Q443.7188,255 444.25,255.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="107" x="462.75" y="263.9102">SeeTestsController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="381.5" x2="618.5" y1="275" y2="275"/><line style="stroke:#A80036;stroke-width:1.5;" x1="381.5" x2="618.5" y1="283" y2="283"/><ellipse cx="391.5" cy="294" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="66" x="400.5" y="298.4189">getClientList()</text><ellipse cx="391.5" cy="307.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="213" x="400.5" y="312.2549">getTestAssociatedWithClient(selectedClient)</text><ellipse cx="391.5" cy="321.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="172" x="400.5" y="326.0908">getClientsListByAlphabeticalOrder()</text><ellipse cx="391.5" cy="335.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="400.5" y="339.9268">getClientListByTin()</text><!--MD5=[d9af5e34e5bc78cd5a2caff02363fedd]
+class ClientMapper--><rect codeLine="85" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="61.8359" id="ClientMapper" style="stroke:#A80036;stroke-width:1.5;" width="113" x="595.5" y="431"/><ellipse cx="614.1" cy="447" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M616.1,443.5 Q616.3031,443 616.5375,442.75 Q616.7719,442.5 617.0375,442.5 Q617.5063,442.5 617.8031,442.7813 Q618.1,443.0625 618.1,443.7188 L618.1,445.2813 Q618.1,445.9375 617.8188,446.2188 Q617.5375,446.5 617.1,446.5 Q616.7094,446.5 616.4594,446.3281 Q616.2094,446.1563 616.1,445.7031 Q616.0531,445.3906 615.8813,445.2188 Q615.5688,444.8906 615.0063,444.7031 Q614.4438,444.5 613.8813,444.5 Q613.1781,444.5 612.5844,444.7813 Q612.0063,445.0625 611.5531,445.6875 Q611.1,446.3125 611.1,447.1719 L611.1,448.0938 Q611.1,449.125 611.9438,449.8125 Q612.7875,450.5 614.2875,450.5 Q615.1781,450.5 615.8031,450.2969 Q616.1625,450.1875 616.5688,449.8281 Q616.8344,449.625 616.975,449.5625 Q617.1156,449.5 617.2875,449.5 Q617.6156,449.5 617.85,449.7656 Q618.1,450.0156 618.1,450.375 Q618.1,450.7188 617.7563,451.125 Q617.2563,451.7188 616.4594,452.0469 Q615.4125,452.5 614.1313,452.5 Q612.6313,452.5 611.4281,451.9063 Q610.4594,451.4375 609.7719,450.4219 Q609.1,449.4063 609.1,448.2031 L609.1,447.1094 Q609.1,445.8594 609.6938,444.7656 Q610.3031,443.6719 611.35,443.0938 Q612.4125,442.5 613.6,442.5 Q614.3188,442.5 614.9438,442.75 Q615.5688,443 616.1,443.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="628.9" y="451.9102">ClientMapper</text><line style="stroke:#A80036;stroke-width:1.5;" x1="596.5" x2="707.5" y1="463" y2="463"/><line style="stroke:#A80036;stroke-width:1.5;" x1="596.5" x2="707.5" y1="471" y2="471"/><ellipse cx="606.5" cy="482" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="87" x="615.5" y="486.4189">toDTO(ClientsList)</text><!--MD5=[144698ec4d0188f6929a3b58a3eeb1f6]
+class TestMapper--><rect codeLine="116" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="61.8359" id="TestMapper" style="stroke:#A80036;stroke-width:1.5;" width="120" x="440" y="431"/><ellipse cx="465.35" cy="447" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M467.35,443.5 Q467.5531,443 467.7875,442.75 Q468.0219,442.5 468.2875,442.5 Q468.7563,442.5 469.0531,442.7813 Q469.35,443.0625 469.35,443.7188 L469.35,445.2813 Q469.35,445.9375 469.0688,446.2188 Q468.7875,446.5 468.35,446.5 Q467.9594,446.5 467.7094,446.3281 Q467.4594,446.1563 467.35,445.7031 Q467.3031,445.3906 467.1313,445.2188 Q466.8188,444.8906 466.2563,444.7031 Q465.6938,444.5 465.1313,444.5 Q464.4281,444.5 463.8344,444.7813 Q463.2563,445.0625 462.8031,445.6875 Q462.35,446.3125 462.35,447.1719 L462.35,448.0938 Q462.35,449.125 463.1938,449.8125 Q464.0375,450.5 465.5375,450.5 Q466.4281,450.5 467.0531,450.2969 Q467.4125,450.1875 467.8188,449.8281 Q468.0844,449.625 468.225,449.5625 Q468.3656,449.5 468.5375,449.5 Q468.8656,449.5 469.1,449.7656 Q469.35,450.0156 469.35,450.375 Q469.35,450.7188 469.0063,451.125 Q468.5063,451.7188 467.7094,452.0469 Q466.6625,452.5 465.3813,452.5 Q463.8813,452.5 462.6781,451.9063 Q461.7094,451.4375 461.0219,450.4219 Q460.35,449.4063 460.35,448.2031 L460.35,447.1094 Q460.35,445.8594 460.9438,444.7656 Q461.5531,443.6719 462.6,443.0938 Q463.6625,442.5 464.85,442.5 Q465.5688,442.5 466.1938,442.75 Q466.8188,443 467.35,443.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="481.65" y="451.9102">TestMapper</text><line style="stroke:#A80036;stroke-width:1.5;" x1="441" x2="559" y1="463" y2="463"/><line style="stroke:#A80036;stroke-width:1.5;" x1="441" x2="559" y1="471" y2="471"/><ellipse cx="451" cy="482" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="460" y="486.4189">toDTO(ListOfTests)</text><!--MD5=[d92da6d3e9b1e9631354e1a6db35e891]
+class ClientDTO--><rect codeLine="51" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="297.0469" id="ClientDTO" style="stroke:#A80036;stroke-width:1.5;" width="141" x="608.5" y="576"/><ellipse cx="646.9" cy="592" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M648.9,588.5 Q649.1031,588 649.3375,587.75 Q649.5719,587.5 649.8375,587.5 Q650.3063,587.5 650.6031,587.7813 Q650.9,588.0625 650.9,588.7188 L650.9,590.2813 Q650.9,590.9375 650.6188,591.2188 Q650.3375,591.5 649.9,591.5 Q649.5094,591.5 649.2594,591.3281 Q649.0094,591.1563 648.9,590.7031 Q648.8531,590.3906 648.6813,590.2188 Q648.3688,589.8906 647.8063,589.7031 Q647.2438,589.5 646.6813,589.5 Q645.9781,589.5 645.3844,589.7813 Q644.8063,590.0625 644.3531,590.6875 Q643.9,591.3125 643.9,592.1719 L643.9,593.0938 Q643.9,594.125 644.7438,594.8125 Q645.5875,595.5 647.0875,595.5 Q647.9781,595.5 648.6031,595.2969 Q648.9625,595.1875 649.3688,594.8281 Q649.6344,594.625 649.775,594.5625 Q649.9156,594.5 650.0875,594.5 Q650.4156,594.5 650.65,594.7656 Q650.9,595.0156 650.9,595.375 Q650.9,595.7188 650.5563,596.125 Q650.0563,596.7188 649.2594,597.0469 Q648.2125,597.5 646.9313,597.5 Q645.4313,597.5 644.2281,596.9063 Q643.2594,596.4375 642.5719,595.4219 Q641.9,594.4063 641.9,593.2031 L641.9,592.1094 Q641.9,590.8594 642.4938,589.7656 Q643.1031,588.6719 644.15,588.0938 Q645.2125,587.5 646.4,587.5 Q647.1188,587.5 647.7438,587.75 Q648.3688,588 648.9,588.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="666.1" y="596.9102">ClientDTO</text><line style="stroke:#A80036;stroke-width:1.5;" x1="609.5" x2="748.5" y1="608" y2="608"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="616"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="628.5" y="623.4189">citizenCardNumber</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="629.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="628.5" y="637.2549">nhsCode</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="643.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="628.5" y="651.0908">birthDate</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="657.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="18" x="628.5" y="664.9268">sex</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="671.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="9" x="628.5" y="678.7627">tif</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="685.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="628.5" y="692.5986">phoneNumber</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="699.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="628.5" y="706.4346">e-mail</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="712.8516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="628.5" y="720.2705">name</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="616.5" y="726.6875"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="628.5" y="734.1064">address</text><line style="stroke:#A80036;stroke-width:1.5;" x1="609.5" x2="748.5" y1="740.5234" y2="740.5234"/><ellipse cx="619.5" cy="751.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="628.5" y="755.9424">getName()</text><ellipse cx="619.5" cy="765.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="115" x="628.5" y="769.7783">getCitizenCardNumber()</text><ellipse cx="619.5" cy="779.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="628.5" y="783.6143">getNhsCode()</text><ellipse cx="619.5" cy="793.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="628.5" y="797.4502">getDateOfBirth()</text><ellipse cx="619.5" cy="806.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="628.5" y="811.2861">getEmail()</text><ellipse cx="619.5" cy="820.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="90" x="628.5" y="825.1221">getPhoneNumber()</text><ellipse cx="619.5" cy="834.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="628.5" y="838.958">getTin()</text><ellipse cx="619.5" cy="848.375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="628.5" y="852.7939">getSex()</text><ellipse cx="619.5" cy="862.2109" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="628.5" y="866.6299">getAddress()</text><!--MD5=[9fb704ffefcaf68bf1a361787afa998b]
+class TestDTO--><rect codeLine="73" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="89.5078" id="TestDTO" style="stroke:#A80036;stroke-width:1.5;" width="109" x="464.5" y="679.5"/><ellipse cx="492.1" cy="695.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M494.1,692 Q494.3031,691.5 494.5375,691.25 Q494.7719,691 495.0375,691 Q495.5063,691 495.8031,691.2813 Q496.1,691.5625 496.1,692.2188 L496.1,693.7813 Q496.1,694.4375 495.8188,694.7188 Q495.5375,695 495.1,695 Q494.7094,695 494.4594,694.8281 Q494.2094,694.6563 494.1,694.2031 Q494.0531,693.8906 493.8813,693.7188 Q493.5688,693.3906 493.0063,693.2031 Q492.4438,693 491.8813,693 Q491.1781,693 490.5844,693.2813 Q490.0063,693.5625 489.5531,694.1875 Q489.1,694.8125 489.1,695.6719 L489.1,696.5938 Q489.1,697.625 489.9438,698.3125 Q490.7875,699 492.2875,699 Q493.1781,699 493.8031,698.7969 Q494.1625,698.6875 494.5688,698.3281 Q494.8344,698.125 494.975,698.0625 Q495.1156,698 495.2875,698 Q495.6156,698 495.85,698.2656 Q496.1,698.5156 496.1,698.875 Q496.1,699.2188 495.7563,699.625 Q495.2563,700.2188 494.4594,700.5469 Q493.4125,701 492.1313,701 Q490.6313,701 489.4281,700.4063 Q488.4594,699.9375 487.7719,698.9219 Q487.1,697.9063 487.1,696.7031 L487.1,695.6094 Q487.1,694.3594 487.6938,693.2656 Q488.3031,692.1719 489.35,691.5938 Q490.4125,691 491.6,691 Q492.3188,691 492.9438,691.25 Q493.5688,691.5 494.1,692 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="49" x="508.9" y="700.4102">TestDTO</text><line style="stroke:#A80036;stroke-width:1.5;" x1="465.5" x2="572.5" y1="711.5" y2="711.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="472.5" y="719.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="484.5" y="726.9189">internalCode</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="472.5" y="733.3359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="484.5" y="740.7549">description</text><line style="stroke:#A80036;stroke-width:1.5;" x1="465.5" x2="572.5" y1="747.1719" y2="747.1719"/><ellipse cx="475.5" cy="758.1719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="484.5" y="762.5908">getInternalCode()</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="79" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="61.8359" id="Company" style="stroke:#A80036;stroke-width:1.5;" width="96" x="56" y="1297.5"/><ellipse cx="75.95" cy="1313.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M77.95,1310 Q78.1531,1309.5 78.3875,1309.25 Q78.6219,1309 78.8875,1309 Q79.3563,1309 79.6531,1309.2813 Q79.95,1309.5625 79.95,1310.2188 L79.95,1311.7813 Q79.95,1312.4375 79.6688,1312.7188 Q79.3875,1313 78.95,1313 Q78.5594,1313 78.3094,1312.8281 Q78.0594,1312.6563 77.95,1312.2031 Q77.9031,1311.8906 77.7313,1311.7188 Q77.4188,1311.3906 76.8563,1311.2031 Q76.2938,1311 75.7313,1311 Q75.0281,1311 74.4344,1311.2813 Q73.8563,1311.5625 73.4031,1312.1875 Q72.95,1312.8125 72.95,1313.6719 L72.95,1314.5938 Q72.95,1315.625 73.7938,1316.3125 Q74.6375,1317 76.1375,1317 Q77.0281,1317 77.6531,1316.7969 Q78.0125,1316.6875 78.4188,1316.3281 Q78.6844,1316.125 78.825,1316.0625 Q78.9656,1316 79.1375,1316 Q79.4656,1316 79.7,1316.2656 Q79.95,1316.5156 79.95,1316.875 Q79.95,1317.2188 79.6063,1317.625 Q79.1063,1318.2188 78.3094,1318.5469 Q77.2625,1319 75.9813,1319 Q74.4813,1319 73.2781,1318.4063 Q72.3094,1317.9375 71.6219,1316.9219 Q70.95,1315.9063 70.95,1314.7031 L70.95,1313.6094 Q70.95,1312.3594 71.5438,1311.2656 Q72.1531,1310.1719 73.2,1309.5938 Q74.2625,1309 75.45,1309 Q76.1688,1309 76.7938,1309.25 Q77.4188,1309.5 77.95,1310 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="91.05" y="1318.4102">Company</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57" x2="151" y1="1329.5" y2="1329.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="57" x2="151" y1="1337.5" y2="1337.5"/><ellipse cx="67" cy="1348.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="70" x="76" y="1352.9189">getTestStore()</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="94" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="269.375" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="232" x="319" y="1194"/><ellipse cx="414.75" cy="1210" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M416.75,1206.5 Q416.9531,1206 417.1875,1205.75 Q417.4219,1205.5 417.6875,1205.5 Q418.1563,1205.5 418.4531,1205.7813 Q418.75,1206.0625 418.75,1206.7188 L418.75,1208.2813 Q418.75,1208.9375 418.4688,1209.2188 Q418.1875,1209.5 417.75,1209.5 Q417.3594,1209.5 417.1094,1209.3281 Q416.8594,1209.1563 416.75,1208.7031 Q416.7031,1208.3906 416.5313,1208.2188 Q416.2188,1207.8906 415.6563,1207.7031 Q415.0938,1207.5 414.5313,1207.5 Q413.8281,1207.5 413.2344,1207.7813 Q412.6563,1208.0625 412.2031,1208.6875 Q411.75,1209.3125 411.75,1210.1719 L411.75,1211.0938 Q411.75,1212.125 412.5938,1212.8125 Q413.4375,1213.5 414.9375,1213.5 Q415.8281,1213.5 416.4531,1213.2969 Q416.8125,1213.1875 417.2188,1212.8281 Q417.4844,1212.625 417.625,1212.5625 Q417.7656,1212.5 417.9375,1212.5 Q418.2656,1212.5 418.5,1212.7656 Q418.75,1213.0156 418.75,1213.375 Q418.75,1213.7188 418.4063,1214.125 Q417.9063,1214.7188 417.1094,1215.0469 Q416.0625,1215.5 414.7813,1215.5 Q413.2813,1215.5 412.0781,1214.9063 Q411.1094,1214.4375 410.4219,1213.4219 Q409.75,1212.4063 409.75,1211.2031 L409.75,1210.1094 Q409.75,1208.8594 410.3438,1207.7656 Q410.9531,1206.6719 412,1206.0938 Q413.0625,1205.5 414.25,1205.5 Q414.9688,1205.5 415.5938,1205.75 Q416.2188,1206 416.75,1206.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="435.25" y="1214.9102">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="320" x2="550" y1="1226" y2="1226"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327" y="1234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="339" y="1241.4189">citizenCardNumber</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327" y="1247.8359"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="339" y="1255.2549">nhsCode</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327" y="1261.6719"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="43" x="339" y="1269.0908">birthDate</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327" y="1275.5078"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="18" x="339" y="1282.9268">sex</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327" y="1289.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="9" x="339" y="1296.7627">tif</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327" y="1303.1797"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="339" y="1310.5986">phoneNumber</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327" y="1317.0156"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="28" x="339" y="1324.4346">e-mail</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="327" y="1330.8516"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="339" y="1338.2705">name</text><line style="stroke:#A80036;stroke-width:1.5;" x1="320" x2="550" y1="1344.6875" y2="1344.6875"/><ellipse cx="330" cy="1355.6875" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="339" y="1360.1064">getName(name)</text><ellipse cx="330" cy="1369.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="206" x="339" y="1373.9424">getCitizenCardNumber(citizenCardNumber)</text><ellipse cx="330" cy="1383.3594" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="339" y="1387.7783">getNhsCode(nhsCode)</text><ellipse cx="330" cy="1397.1953" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="134" x="339" y="1401.6143">getDateOfBirth(dateOfBirth)</text><ellipse cx="330" cy="1411.0313" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="339" y="1415.4502">getEmail(email)</text><ellipse cx="330" cy="1424.8672" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="339" y="1429.2861">getPhoneNumber(phoneNumber)</text><ellipse cx="330" cy="1438.7031" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="339" y="1443.1221">getDateOfTin(tin)</text><ellipse cx="330" cy="1452.5391" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="339" y="1456.958">getSex(sex)</text><!--MD5=[df38be88ccee13e832d6fafd6288a4ca]
+class Test--><rect codeLine="121" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="75.6719" id="Test" style="stroke:#A80036;stroke-width:1.5;" width="75" x="187.5" y="1290.5"/><ellipse cx="211.05" cy="1306.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M213.05,1303 Q213.2531,1302.5 213.4875,1302.25 Q213.7219,1302 213.9875,1302 Q214.4563,1302 214.7531,1302.2813 Q215.05,1302.5625 215.05,1303.2188 L215.05,1304.7813 Q215.05,1305.4375 214.7688,1305.7188 Q214.4875,1306 214.05,1306 Q213.6594,1306 213.4094,1305.8281 Q213.1594,1305.6563 213.05,1305.2031 Q213.0031,1304.8906 212.8313,1304.7188 Q212.5188,1304.3906 211.9563,1304.2031 Q211.3938,1304 210.8313,1304 Q210.1281,1304 209.5344,1304.2813 Q208.9563,1304.5625 208.5031,1305.1875 Q208.05,1305.8125 208.05,1306.6719 L208.05,1307.5938 Q208.05,1308.625 208.8938,1309.3125 Q209.7375,1310 211.2375,1310 Q212.1281,1310 212.7531,1309.7969 Q213.1125,1309.6875 213.5188,1309.3281 Q213.7844,1309.125 213.925,1309.0625 Q214.0656,1309 214.2375,1309 Q214.5656,1309 214.8,1309.2656 Q215.05,1309.5156 215.05,1309.875 Q215.05,1310.2188 214.7063,1310.625 Q214.2063,1311.2188 213.4094,1311.5469 Q212.3625,1312 211.0813,1312 Q209.5813,1312 208.3781,1311.4063 Q207.4094,1310.9375 206.7219,1309.9219 Q206.05,1308.9063 206.05,1307.7031 L206.05,1306.6094 Q206.05,1305.3594 206.6438,1304.2656 Q207.2531,1303.1719 208.3,1302.5938 Q209.3625,1302 210.55,1302 Q211.2688,1302 211.8938,1302.25 Q212.5188,1302.5 213.05,1303 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="226.95" y="1311.4102">Test</text><line style="stroke:#A80036;stroke-width:1.5;" x1="188.5" x2="261.5" y1="1322.5" y2="1322.5"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="195.5" y="1330.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="25" x="207.5" y="1337.9189">client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="188.5" x2="261.5" y1="1344.3359" y2="1344.3359"/><ellipse cx="198.5" cy="1355.3359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="207.5" y="1359.7549">getClient()</text><!--MD5=[0f6f7964b844a64b0496af0dda7914bd]
+class TestStore--><rect codeLine="89" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="75.6719" id="TestStore" style="stroke:#A80036;stroke-width:1.5;" width="239" x="80.5" y="1713"/><ellipse cx="169.25" cy="1729" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M171.25,1725.5 Q171.4531,1725 171.6875,1724.75 Q171.9219,1724.5 172.1875,1724.5 Q172.6563,1724.5 172.9531,1724.7813 Q173.25,1725.0625 173.25,1725.7188 L173.25,1727.2813 Q173.25,1727.9375 172.9688,1728.2188 Q172.6875,1728.5 172.25,1728.5 Q171.8594,1728.5 171.6094,1728.3281 Q171.3594,1728.1563 171.25,1727.7031 Q171.2031,1727.3906 171.0313,1727.2188 Q170.7188,1726.8906 170.1563,1726.7031 Q169.5938,1726.5 169.0313,1726.5 Q168.3281,1726.5 167.7344,1726.7813 Q167.1563,1727.0625 166.7031,1727.6875 Q166.25,1728.3125 166.25,1729.1719 L166.25,1730.0938 Q166.25,1731.125 167.0938,1731.8125 Q167.9375,1732.5 169.4375,1732.5 Q170.3281,1732.5 170.9531,1732.2969 Q171.3125,1732.1875 171.7188,1731.8281 Q171.9844,1731.625 172.125,1731.5625 Q172.2656,1731.5 172.4375,1731.5 Q172.7656,1731.5 173,1731.7656 Q173.25,1732.0156 173.25,1732.375 Q173.25,1732.7188 172.9063,1733.125 Q172.4063,1733.7188 171.6094,1734.0469 Q170.5625,1734.5 169.2813,1734.5 Q167.7813,1734.5 166.5781,1733.9063 Q165.6094,1733.4375 164.9219,1732.4219 Q164.25,1731.4063 164.25,1730.2031 L164.25,1729.1094 Q164.25,1727.8594 164.8438,1726.7656 Q165.4531,1725.6719 166.5,1725.0938 Q167.5625,1724.5 168.75,1724.5 Q169.4688,1724.5 170.0938,1724.75 Q170.7188,1725 171.25,1725.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="189.75" y="1733.9102">TestStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="81.5" x2="318.5" y1="1745" y2="1745"/><line style="stroke:#A80036;stroke-width:1.5;" x1="81.5" x2="318.5" y1="1753" y2="1753"/><ellipse cx="91.5" cy="1764" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="148" x="100.5" y="1768.4189">getClientsWithValidatedTests()</text><ellipse cx="91.5" cy="1777.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="213" x="100.5" y="1782.2549">getTestAssociatedWithClient(selectedClient)</text><!--MD5=[b7b4fd945e6c93d3d26dcc8e9e28d05a]
+class SortingAlgorithms--><rect codeLine="127" fill="#FEFECE" filter="url(#fzbfpqypyxegq)" height="61.8359" id="SortingAlgorithms" style="stroke:#A80036;stroke-width:1.5;" width="130" x="157" y="693.5"/><ellipse cx="172" cy="709.5" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M173,706.5 L173,712.5 L175,712.5 L175.4844,712.5 L176,713.125 L176,713.5 L176,713.875 L175.4844,714.5 L175,714.5 L169,714.5 L168.5156,714.5 L168,713.875 L168,713.5 L168,713.125 L168.5156,712.5 L169,712.5 L171,712.5 L171,706.5 L169,706.5 L168.5156,706.5 L168,705.875 L168,705.5 L168,705.125 L168.5156,704.5 L169,704.5 L175,704.5 L175.4844,704.5 L176,705.125 L176,705.5 L176,705.875 L175.4844,706.5 L175,706.5 L173,706.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="98" x="186" y="714.4102">SortingAlgorithms</text><line style="stroke:#A80036;stroke-width:1.5;" x1="158" x2="286" y1="725.5" y2="725.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="158" x2="286" y1="733.5" y2="733.5"/><ellipse cx="168" cy="744.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="93" x="177" y="748.9189">orderClientList (list)</text><!--MD5=[d6561e92f0be27e487d269a41628b178]
+link SeeTestsUI to SeeTestsController--><path codeLine="131" d="M728.82,134.11 C690.85,160.56 627.41,204.75 576.94,239.9 " fill="none" id="SeeTestsUI-to-SeeTestsController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="572.72,242.85,582.3909,240.9861,576.8222,239.9913,577.817,234.4226,572.72,242.85" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[950fda1a1a9f55d3a0db0476ac073e57]
+link SeeTestsUI to ClientDTO--><path codeLine="132" d="M771.73,134.02 C777.75,149.53 784.89,170.61 788,190 C811.5,336.57 824.73,380.17 788,524 C780.24,554.4 766.78,585.16 751.92,613.12 " fill="none" id="SeeTestsUI-to-ClientDTO" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="749.53,617.58,757.3211,611.5552,751.9022,613.1786,750.2788,607.7596,749.53,617.58" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[da19ebf839da0f5b392f9687cb24b47a]
+link SeeTestsUI to TestDTO--><path codeLine="133" d="M764.57,134.08 C772.79,212.84 794.82,469.15 740,524 C728.28,535.73 604.37,522.2 591,532 C546.17,564.85 529.24,629.08 522.86,674.06 " fill="none" id="SeeTestsUI-to-TestDTO" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="522.17,679.18,527.3418,670.7983,522.8411,674.2252,519.4142,669.7246,522.17,679.18" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6ebc42fbb22f45d25e6168d97a26701b]
+link SeeTestsController to TestMapper--><path codeLine="134" d="M500,346.05 C500,371.86 500,402.62 500,425.82 " fill="none" id="SeeTestsController-to-TestMapper" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="500,430.95,504,421.95,500,425.95,496,421.95,500,430.95" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d96acf488ec8abe6abda7b0ea1ec0948]
+link SeeTestsController to ClientMapper--><path codeLine="135" d="M546.43,346.05 C570.53,372.29 599.33,403.65 620.75,426.98 " fill="none" id="SeeTestsController-to-ClientMapper" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="624.4,430.95,621.2392,421.6221,621.0104,427.2743,615.3582,427.0455,624.4,430.95" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[12463469446cfa35038e1e4c7e5eef4f]
+link SeeTestsController to Company--><path codeLine="136" d="M380.38,321.31 C263.8,350.01 104,400.41 104,461 C104,461 104,461 104,1023 C104,1120.3 104,1235.1 104,1291.93 " fill="none" id="SeeTestsController-to-Company" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="104,1297.25,108,1288.25,104,1292.25,100,1288.25,104,1297.25" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7f6cf7f175eae0af66201860de5de971]
+link Company to TestStore--><path codeLine="137" d="M110.9,1359.74 C127.77,1433.6 171.07,1623.29 190.42,1708.02 " fill="none" id="Company-to-TestStore" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="191.54,1712.96,193.4655,1703.3012,190.4418,1708.0821,185.6609,1705.0584,191.54,1712.96" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="28" x="167" y="1595.4951">uses</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="104.5481" y="1380.7644">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="182.3349" y="1702.0292">1</text><!--MD5=[b0f4f6db8206580012ef9cd998ed01c5]
+link TestStore to Test--><path codeLine="138" d="M202.21,1712.77 C206.85,1634.76 217.56,1454.58 222.47,1372.11 " fill="none" id="TestStore-to-Test" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="222.78,1366.82,218.2467,1375.5635,222.4797,1371.811,226.2322,1376.044,222.78,1366.82" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="210" y="1595.4951">know</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="194.9802" y="1702.0909">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="217.0278" y="1387.7515">*</text><!--MD5=[f6fda4afaf882dd39139bcbf06c50c8c]
+link TestMapper to TestDTO--><path codeLine="139" d="M502.2,493.14 C505.43,537.51 511.52,620.92 515.41,674.26 " fill="none" id="TestMapper-to-TestDTO" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="515.78,679.32,519.1003,670.0477,515.4085,674.3338,511.1224,670.642,515.78,679.32" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8d9a2c3ea1bf73d8d45b939465e53fff]
+link TestMapper to Test--><path codeLine="140" d="M441.98,493.01 C426.19,503.52 410.34,516.61 399,532 C346.16,603.69 340,634.44 340,723.5 C340,723.5 340,723.5 340,1023 C340,1046.89 314.92,1041.29 303,1062 C261.43,1134.2 240.39,1230.4 231.14,1284.97 " fill="none" id="TestMapper-to-Test" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="230.28,1290.12,235.6936,1281.8924,231.095,1285.1869,227.8006,1280.5883,230.28,1290.12" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[af3939234646809cec66923e43961aa6]
+link ClientMapper to ClientDTO--><path codeLine="141" d="M655.12,493.14 C657.2,513.14 660.09,541.08 663.15,570.62 " fill="none" id="ClientMapper-to-ClientDTO" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="663.69,575.76,666.7427,566.3962,663.1755,570.7865,658.7851,567.2194,663.69,575.76" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7e87959ebe2e461efeab352c4ade48a9]
+link ClientMapper to Client--><path codeLine="142" d="M595.24,486.64 C589.45,488.86 583.62,491.02 578,493 C521.1,513.02 488.46,487.26 448,532 C389.86,596.3 411,636.81 411,723.5 C411,723.5 411,723.5 411,1023 C411,1077.33 414.84,1136.93 419.45,1188.9 " fill="none" id="ClientMapper-to-Client" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="419.9,1193.9,423.088,1184.5814,419.4576,1188.9196,415.1194,1185.2892,419.9,1193.9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[933b36e27696321e7e9319c210d101c2]
+link SeeTestsController to SortingAlgorithms--><path codeLine="143" d="M457.67,346.22 C446.67,359.47 434.87,373.74 424,387 C374.72,447.12 354.97,456.93 314,523 C279.96,577.89 250.84,647.47 234.93,688.57 " fill="none" id="SeeTestsController-to-SortingAlgorithms" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="233.06,693.44,240.0285,686.4801,234.8578,688.7744,232.5635,683.6037,233.06,693.44" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9dc32b06b6bed31a4a84b14356736578]
+@startuml
+'https://plantuml.com/class-diagram
+package ui {
+package gui {
+class SeeTestsUI
+}
+}
+package controller {
+class SeeTestsController
+}
+
+package mappers {
+package dto {
+class ClientDTO
+class TestDTO
+}
+class ClientMapper
+class TestMapper
+}
+
+package domain {
+package model {
+package users {
+class Client
+}
+package testrelated {
+class Test
+}
+class Company
+}
+package store {
+class TestStore
+}
+}
+
+package interface {
+interface SortingAlgorithms
+}
+
+class SeeTestsUI {
+}
+
+class SeeTestsController {
++getClientList()
++getTestAssociatedWithClient(selectedClient)
++getClientsListByAlphabeticalOrder()
++getClientListByTin()
+
+
+}
+
+class  ClientDTO{
+-citizenCardNumber
+-nhsCode
+-birthDate
+-sex
+-tif
+-phoneNumber
+-e-mail
+-name
+-address
+
++getName()
++getCitizenCardNumber()
++getNhsCode()
++getDateOfBirth()
++getEmail()
++getPhoneNumber()
++getTin()
++getSex()
++getAddress()
+}
+
+class TestDTO{
+-internalCode
+-description
++getInternalCode()
+}
+
+class Company{
++getTestStore()
+
+}
+
+
+class ClientMapper{
++toDTO(ClientsList)
+}
+
+class TestStore{
++getClientsWithValidatedTests()
++getTestAssociatedWithClient(selectedClient)
+
+}
+class Client {
+-citizenCardNumber
+-nhsCode
+-birthDate
+-sex
+-tif
+-phoneNumber
+-e-mail
+-name
+
++getName(name)
++getCitizenCardNumber(citizenCardNumber)
++getNhsCode(nhsCode)
++getDateOfBirth(dateOfBirth)
++getEmail(email)
++getPhoneNumber(phoneNumber)
++getDateOfTin(tin)
++getSex(sex)
+
+
+}
+
+class TestMapper{
++toDTO(ListOfTests)
+
+}
+
+class Test {
+-client
++getClient()
+
+}
+
+interface SortingAlgorithms{
++orderClientList (list)
+}
+
+SeeTestsUI .> SeeTestsController
+SeeTestsUI ....> ClientDTO
+SeeTestsUI ....> TestDTO
+SeeTestsController .> TestMapper
+SeeTestsController ..> ClientMapper
+SeeTestsController ..> Company
+Company "1" - - - -> "1" TestStore : uses
+TestStore"1" - -> "*" Test : know
+TestMapper ..> TestDTO
+TestMapper .....> Test
+ClientMapper ..> ClientDTO
+ClientMapper ..> Client
+SeeTestsController ...> SortingAlgorithms
+
+@enduml
+
+@startuml
+package ui {
+package gui {
+class SeeTestsUI
+}
+}
+package controller {
+class SeeTestsController
+}
+
+package mappers {
+package dto {
+class ClientDTO
+class TestDTO
+}
+class ClientMapper
+class TestMapper
+}
+
+package domain {
+package model {
+package users {
+class Client
+}
+package testrelated {
+class Test
+}
+class Company
+}
+package store {
+class TestStore
+}
+}
+
+package interface {
+interface SortingAlgorithms
+}
+
+class SeeTestsUI {
+}
+
+class SeeTestsController {
++getClientList()
++getTestAssociatedWithClient(selectedClient)
++getClientsListByAlphabeticalOrder()
++getClientListByTin()
+
+
+}
+
+class  ClientDTO{
+-citizenCardNumber
+-nhsCode
+-birthDate
+-sex
+-tif
+-phoneNumber
+-e-mail
+-name
+-address
+
++getName()
++getCitizenCardNumber()
++getNhsCode()
++getDateOfBirth()
++getEmail()
++getPhoneNumber()
++getTin()
++getSex()
++getAddress()
+}
+
+class TestDTO{
+-internalCode
+-description
++getInternalCode()
+}
+
+class Company{
++getTestStore()
+
+}
+
+
+class ClientMapper{
++toDTO(ClientsList)
+}
+
+class TestStore{
++getClientsWithValidatedTests()
++getTestAssociatedWithClient(selectedClient)
+
+}
+class Client {
+-citizenCardNumber
+-nhsCode
+-birthDate
+-sex
+-tif
+-phoneNumber
+-e-mail
+-name
+
++getName(name)
++getCitizenCardNumber(citizenCardNumber)
++getNhsCode(nhsCode)
++getDateOfBirth(dateOfBirth)
++getEmail(email)
++getPhoneNumber(phoneNumber)
++getDateOfTin(tin)
++getSex(sex)
+
+
+}
+
+class TestMapper{
++toDTO(ListOfTests)
+
+}
+
+class Test {
+-client
++getClient()
+
+}
+
+interface SortingAlgorithms{
++orderClientList (list)
+}
+
+SeeTestsUI .> SeeTestsController
+SeeTestsUI ....> ClientDTO
+SeeTestsUI ....> TestDTO
+SeeTestsController .> TestMapper
+SeeTestsController ..> ClientMapper
+SeeTestsController ..> Company
+Company "1" - - - -> "1" TestStore : uses
+TestStore"1" - -> "*" Test : know
+TestMapper ..> TestDTO
+TestMapper .....> Test
+ClientMapper ..> ClientDTO
+ClientMapper ..> Client
+SeeTestsController ...> SortingAlgorithms
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

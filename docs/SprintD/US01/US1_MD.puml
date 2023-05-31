@@ -1,0 +1,41 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Test {
+-internalCode
+-nhsCode
+-description
+-dateOfSampleCollected
+-timeOfSampleCollected
+-dateOfSampleAnalysis
+-timeOfSampleAnalysis
+-state
+}
+
+class Client {
+   - name
+   - email
+   - phoneNumber
+   - sex
+   - tin
+   - birthDate
+   - nhsNumber
+   - citizenCardNumber
+}
+
+
+class MedicalReport{
+-diagnosis
+-dateAndTime
+}
+
+Test "1..*" -- "1" Client : associated a >
+Test "1" ---"1" MedicalReport : request >
+Test "1" ---"1..*" TestParameter : requests analysis of >
+
+
+
+@enduml

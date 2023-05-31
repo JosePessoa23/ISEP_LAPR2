@@ -1,0 +1,32 @@
+@startuml
+autonumber
+'hide footbox
+
+
+participant ":Company" as Comp
+participant "task : TimerTask" as Task
+participant ":Timer" as Timer
+
+
+-> Comp : scheduleOperation(delay,interval)
+activate Comp
+
+Comp -> Task** : create()
+Comp -> Timer** : create()
+Comp -> Timer : schedule(task,delay,interval)
+activate Timer
+Timer -> Task : run()
+deactivate Timer
+ref over Task
+SD_Run
+end ref
+activate Task
+deactivate Task
+
+deactivate Comp
+
+
+
+
+
+@enduml

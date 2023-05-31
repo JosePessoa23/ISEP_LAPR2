@@ -1,0 +1,41 @@
+@startuml
+hide methods
+skinparam classAttributeIconSize 0
+
+
+class Company{
+-designation
+}
+
+class Test{
+-internalCode
+-nhsCode
+-description
+-dateOfSampleCollected
+-timeOfSampleCollected
+-dateOfSampleAnalysis
+-timeOfSampleAnalysis
+-state
+}
+
+class ClinicalAnalysisLaboratory{
+-laboratoryId
+}
+
+class Client{
+ - name
+ - email
+ - phoneNumber
+ - sex
+ - tin
+ - birthDate
+ - nhsNumber
+ - citizenCardNumber
+}
+
+Company "1" -> "1..*" Test : performs
+Company "1" -> "1..*" ClinicalAnalysisLaboratory : performs
+Test "1..*" -> "1" Client : associated a client
+
+
+@enduml

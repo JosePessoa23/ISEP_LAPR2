@@ -1,0 +1,105 @@
+@startuml
+
+
+package ui {
+class OverviewUI{}
+}
+
+package Controller{
+class OverviewController{
++getIntervalTestList(initialDate,endDate)
++getNumberOfClients()
++getNumberTestsSystem()
++getNumberClientsSystem()
++getNumberOfTestsWaitingForResults()
++getNumberOfTestsWaitingForDiagnosis()
++getTotalNumberOfTestsProcessed()
++getAvailableAlgorithms()
++getSubsequenceWithMaximumSum()
++getPeriodSubSequenceWithMaximumSum()
+}
+}
+
+package adapter{
+class BenchmarkAdapter{
+}
+
+class BruteForceAdapter{
+}
+}
+
+package model{
+class Company{
++getTestStore()
++getClientStore()
++createOverview()
+
+}
+class Test{
+-client
+-nhscode
+-testParameterList
+-stateOfTest
+-internalCode
+}
+class Client{
+}
+class Overview{
++getAssociatedClients()
++getTestsWaitingForResultsDay()
++getTestsWaitingForDiagnosisDay()
++getNumberOfTestsPrcossedDay()
++getIntervalDates()
++getSequenceTestWaitingForResults()
++getSequenceTestValidated()
++getSequenceAux()
++getNumberOfClients()
++getNumberOfTestsWaitingForResults()
++getNumberOfTestsWaitingForDiagnosis()
++getTotalNumberOfTestsProcessed()
++getAvailableAlgorithms()
++getSubsequenceWithMaximumSum()
++getPeriodSubSequenceWithMaximumSum()
++ periodSubSequenceMaxSum(subSequence, sequence)
+}
+}
+
+
+
+package store{
+class TestStore{
++getIntervalTestList(initialDate,endDate)
++getNumberTestsSystem()
++
+}
+class ClientStore{
++getNumberOfClientsInTheSystem()
+}
+}
+
+
+package interfaces{
+interface SubsequenceWithMaximumSum{
++getSubsequenceWithMaximumSum()
+}
+}
+
+
+OverviewUI ..> OverviewController
+
+OverviewController ..> TestStore
+OverviewController ..> ClientStore
+OverviewController ..> Company
+OverviewController ..> Test
+OverviewController ..> Overview
+
+Company "1" ----> "1" TestStore : uses
+TestStore "1" --> "*" Test : knows
+ClientStore "1" --> "*" Client : knows
+
+Overview "*" -->"1"  SubsequenceWithMaximumSum : makes use of
+
+BenchmarkAdapter..|>SubsequenceWithMaximumSum
+BruteForceAdapter..|>SubsequenceWithMaximumSum
+
+@enduml

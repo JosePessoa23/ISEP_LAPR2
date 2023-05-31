@@ -1,0 +1,75 @@
+@startuml
+autonumber
+'hide footbox
+actor "Client" as CL
+
+participant ":ViewResultsUI" as UI
+participant ":ViewResultsController" as CTRL
+participant ": Company" as Comp
+participant "testStore:\nTestStore" as TS
+participant ": TestMapper" as tMAPPER
+participant "testList: \nList<Test>" as LTestSA
+participant "testListDto: \nList<TestDto>" as LTestSADTO
+participant "test : Test" as TEST
+participant "testDto : TestDto" as TESTDTO
+participant ": TestResultsMapper" as trMAPPER
+participant "testResultDto:\n TestResultsDto" as TRDto
+
+activate CL
+CL -> UI : asks to view the results of his tests
+activate UI
+
+UI -> CTRL : getUserSession()
+activate CTRL
+ref over CTRL
+SD_Get_Client_Of_Current_User
+end ref
+CTRL --> UI : result
+deactivate CTRL
+UI -> CTRL : getTestList()
+activate CTRL
+CTRL -> Comp : testStore = getTestStore()
+activate Comp
+deactivate Comp
+CTRL -> TS : testList = getTestListAssociatedWithClient
+activate TS
+deactivate TS
+CTRL -> TS : orderClientTestsByRegistratonDate(testList)
+activate TS
+deactivate TS
+CTRL -> tMAPPER : toDto(testList)
+activate tMAPPER
+ref over tMAPPER
+SD_TestMapper_toDto_List
+end ref
+tMAPPER --> CTRL : testListDto
+deactivate tMAPPER
+CTRL --> UI : testListDto
+deactivate CTRL
+
+UI --> CL : shows the test list and asks to choose one
+deactivate UI
+
+CL -> UI : selects a test
+activate UI
+UI -> CTRL : showTestResults(selectedTest)
+activate CTRL
+CTRL -> TS : test = getTestByInternalCode(code)
+activate TS
+deactivate TS
+CTRL -> trMAPPER : toDto(test)
+activate trMAPPER
+ref over trMAPPER
+SD_TestResultsMapper_toDto_List
+end ref
+trMAPPER --> CTRL : testResultsDto
+deactivate trMAPPER
+CTRL --> UI : testResultsDto
+deactivate CTRL
+deactivate CTRL
+UI --> CL : shows successfully requested data
+deactivate UI
+deactivate UI
+deactivate CL
+
+@enduml

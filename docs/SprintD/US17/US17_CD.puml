@@ -1,0 +1,117 @@
+@startuml
+
+package ui{
+class ImportFileUI
+}
+
+package controller{
+class ImportFileController
+}
+
+package domain{
+class FileReader
+class Company
+package store{
+class ClientStore
+class ClinicalAnalysisLaboratoryStore
+class TestStore
+}
+package model{
+class ClinicalAnalysisLaboratory
+class Client
+class Test
+
+}
+}
+
+class TestStore{
++createTestByCsvFile(client,nhscode,testType,tpList,lab,dateList)
++saveTest(test)
+-validateTest(test)
+-addTest(test)
+}
+
+class Test{
+-client
+-nhscode
+-testParameterList
+-stateOfTest
+-internalCode
++setSamplesAddDate(samplesAddDate)
++setStateOfTest(stateOfTest)
++addTestResultWithDate(parameterID,result,metric,chemicalAnalysisDate)
+}
+
+class ClinicalAnalysisLaboratoryStore{
++getClinicalAnalysisLaboratory(labId)
+}
+
+class ClinicalAnalysisLaboratory{
+-laboratoryId
+-listOfTestTypes
++getClinicalAnalysisLaboratoryByLabId(labId)
+}
+
+class ClientStore{
++getClientbytin(tin)
++saveClient(client)
++addUserWithRole(name,email,pwd)
+-validateClient(client)
+-addClient(client)
+-generatelogin(client)
+
+}
+
+class Client{
+-citizencardnumber
+  -nhs
+  -date
+  -sex
+  -tin
+  -phonenumber
+  -email
+  -name
+}
+
+class Company{
+-String designation
++getTestStore()
++getClientStore()
++getClinicalAnalysisLaboratoryStore()
+}
+
+class FileReader {
++read(file)
+-createTest(client,nhscode,testType,lab,validParametersStringList, parametersNumbList, lineContent)
+-fillParametersString(lineContent,parametersNumbList,allParametersStringList)
+-fillValidParametersString(allParametersStringList,validParametersStringList,parametersNumbList,parameterNumbTestValid)
+-convertStringIntoParameter(validParametersStringList,pmList)
+-convertParameterIntoTestParameter(pmList,tpList)
+-generateDate(lineContent,dateList)
+}
+
+class ImportFileController {
++loadfile(filesList)
+}
+
+class ImportFileUI {
+
+}
+
+ImportFileUI ..> ImportFileController
+ImportFileController ..> FileReader
+FileReader ..> Client
+FileReader ..> Test
+FileReader ..> ClinicalAnalysisLaboratory
+FileReader ..> Company
+FileReader ...> ClientStore
+FileReader ...> TestStore
+FileReader ...> ClinicalAnalysisLaboratoryStore
+Company "1" --> "1" ClientStore : uses
+Company "1" -> "1" ClinicalAnalysisLaboratoryStore : uses
+Company "1" -> "1" TestStore : uses
+ClientStore "1" -> "*" Client : knows
+ClinicalAnalysisLaboratoryStore "1" -> "*" ClinicalAnalysisLaboratory : knows
+TestStore "1" -> "*" Test : registers the
+
+@enduml

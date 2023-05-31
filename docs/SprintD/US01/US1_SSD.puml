@@ -1,0 +1,18 @@
+@startuml
+autonumber
+actor "Client" as OE
+
+activate OE
+OE -> ":System" : Asks to view the results of his tests
+activate ":System"
+":System" --> OE : Shows the test list and asks to choose one
+deactivate ":System"
+
+OE -> ":System" : Selects a test
+activate ":System"
+":System" --> OE : Shows requested data
+deactivate ":System"
+
+deactivate OE
+
+@enduml

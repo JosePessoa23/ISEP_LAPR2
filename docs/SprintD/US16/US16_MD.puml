@@ -1,0 +1,49 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Company{
+-designation
+}
+
+class ExternalModule{
+
+}
+
+class Overview{
+}
+
+class Client{
+ - name
+ - email
+ - phoneNumber
+ - sex
+ - tin
+ - birthDate
+ - nhsNumber
+ - citizenCardNumber
+}
+
+class Test {
+-internalCode
+-nhsCode
+-description
+-dateOfSampleCollected
+-timeOfSampleCollected
+-dateOfSampleAnalysis
+-timeOfSampleAnalysis
+-state
+}
+
+
+
+Company "1"---"1..*" Employee : employ >
+Test "1..*"---"1" Client : associated a >
+Test "*"---"1" Employee : registered by >
+Overview "*"--"1" Employee : requested by >
+Overview "1"---"1" ExternalModule : resort to >
+
+
+@enduml

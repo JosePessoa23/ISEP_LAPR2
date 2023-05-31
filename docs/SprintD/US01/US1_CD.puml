@@ -1,0 +1,167 @@
+@startuml
+
+
+package ui {
+class ViewResultsUI{}
+}
+
+package Auth{
+class UserSession{
++getUserId()
+}
+}
+
+
+package Controller{
+class App{
++getInstance()
++getCurrentUserSession()
++getCompany()
+}
+class ViewResultsController{
++getTestList()
++getUserSession()
++showTestResults(selectedTest)
+}
+}
+
+
+package model{
+class Company{
+- String designation
++getClientStore()
++getTestStore()
+}
+class Test{
+-String internalCode
+-String nhsCode
+-String description
+-Date dateOfSampleCollected
+-Date timeOfSampleCollected
+-Date dateOfSampleAnalysis
+-Date timeOfSampleAnalysis
+-Enum state
+--
++getInternalCode()
++getDescription()
++getTestParameterList()
++getMedicalReport()
+}
+class TestResult{}
+class TestParameter{
+-parameterName
+-testParameterResult
+-testParameterMetric
+-testParameterMinRefValue
+-testParameterMaxRefValue
+-refValueMetric
+--
++getParameterName()
++getParameterResult()
++getParameterMetric()
++getParameterMinRefValue()
++getParameterMaxRefValue()
++getRefValueMetric()
+}
+class MedicalReport{
+-String diagnosis
+-Date createdAt
+}
+class Client{
+- String name
+- String email
+- String phoneNumber
+- String sex
+- String tin
+- String birthDate
+- String nhsNumber
+- String citizenCardNumber
+}
+}
+
+
+package store{
+class TestStore{
++getTestListAssociatedWithClient()
++orderClientTestsByRegistrationDate()
++getTestByInternalCode(code)
+}
+class ClientStore{
++getClientByEmail(email)
+}
+}
+
+
+package mappers{
+class TestMapper{
++toDto(testList)
+}
+class TestResultsMapper{
++toDto(test)
+}
+class TestParameterMapper {
++toDTO(testParametersList)
+}
+class ClientMapper{
++toDto(client)
+}
+}
+
+
+package dto{
+class TestDto{
+-testInternalCode
+-testDescription
+}
+class TestResultDto{
+-testParametersListDto
+-medicalReport
+}
+class TestParameterDto{}
+}
+
+
+Test "1..*" -- "1" Client : associated a >
+Test "1" ---"1" MedicalReport : request >
+Test "1" ---"1..*" TestParameter : requests analysis of >
+
+ViewResultsUI ..> ViewResultsController
+ViewResultsUI ..> TestResultDto
+
+App ..> UserSession
+
+ViewResultsController ..> TestMapper
+ViewResultsController ..> TestResultsMapper
+ViewResultsController ..> TestParameterMapper
+ViewResultsController ..> ClientMapper
+ViewResultsController ..> TestDto
+ViewResultsController ..> TestResultDto
+ViewResultsController ..> TestStore
+ViewResultsController ..> ClientStore
+ViewResultsController ..> Company
+ViewResultsController ..> Test
+ViewResultsController ...> TestParameter
+ViewResultsController ...> MedicalReport
+ViewResultsController ...> Client
+ViewResultsController ...> UserSession
+ViewResultsController ...> App
+
+
+Company -> Test
+Company -> TestStore
+
+TestMapper ..> TestDto
+TestMapper ..> Test
+
+TestResultsMapper ..> TestResultDto
+TestResultsMapper ..> TestResult
+
+TestParameterMapper ..> TestParameterDto
+TestParameterMapper ..> TestParameter
+
+
+
+
+
+
+@enduml
